@@ -37,6 +37,7 @@ déclaration de Variable :
         Ox : hexadécimal
         0 : octal
         
+        
     suffixe : 
         u, U : unsigned
         f,F : float
@@ -52,6 +53,9 @@ déclaration de Variable :
             include <string> 
             std::string var{"Hello World"};
         bool : booléen
+        const : constante (RO) exemple : const int var{5};
+        auto : détermine le type de la variable automatiquement
+
         
         Mieux en suffixe :
             unsigned : entier positif
@@ -68,7 +72,6 @@ déclaration de Variable :
 
 Affectation de variable /  changement 
 var = 5;
-
 ```
 
 
