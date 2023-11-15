@@ -3,7 +3,7 @@
 ## Affichage Console
 
 ```cpp
-/*
+
       std::count : sortie standard (buffer)
       std::cerr : sortie d'erreurs
       std::clog : sortie de log
@@ -19,7 +19,10 @@
 
     // : commentaire sur une ligne
 
-*/
+    /* 
+        commentaire sur plusieurs lignes
+    */
+    
 
 ```
 
@@ -27,7 +30,7 @@
 
 ```cpp
 
-/*
+
 
 déclaration de Variable : 
     type nom_variable{type de la data};
