@@ -74,4 +74,27 @@ Affectation de variable /  changement
 var = 5;
 ```
 
+## Saisie utilisateur
+
+```cpp
+
+    Flags:
+        goodbit : tout va bien 1
+        failbit : erreur de saisie 0
+        badbit : erreur de lecture 0 
+
+    pour les strings :
+        std::string nombre;
+        std::getline(std::cin, nombre);
+
+
+    std::cin.ignore(255, '\n'); // ignore 255 caractères ou jusqu'à un retour à la ligne 
+    std::cin >> var; // saisie de l'utilisateur 
+    std::getline(std::cin, var); // saisie de l'utilisateur
+    std:ws(std::cin); // ignore les espaces
+    std::cin.clear(); // remet les flags à 1
+
+```
+
+
 

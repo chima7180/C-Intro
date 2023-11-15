@@ -4,15 +4,12 @@
 
 int main() {
 
-    std::string name{"John"};
-    std::cout << "Hello, " << name << "!" << std::endl;
+    std::cout << "Tapez un nombre entier: ";
 
-    //code....
-    name = "Jane";
-    //code....
+    std::string nombre;
+    std::getline(std::cin, nombre);
 
-
-    std::cout << "Hello, " << name << "!" << std::endl;
+    std::cout << "Vous avez tapé: " << nombre << std::endl;
 
     return 0;
 
